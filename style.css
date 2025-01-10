@@ -12,7 +12,13 @@
 body{
     width: 1600px;
 }
-
+main{
+    width: 1280px;
+    position: relative;
+    left: 0%;
+    top: 0%;
+    margin: auto;
+}
 /*common css*/
 .color1{
     color:#006A50 ;
@@ -35,11 +41,12 @@ body{
 .primary-button{
 font-size: 18px;
 font-weight: 600;
-line-height: 22px;
 text-align: left;
+border-radius: 8px;
 }
 .primary-button:hover{
    transition: all .5s ease;
+   background-color: #09A15C;
 }
 
 /*header part*/
@@ -68,8 +75,39 @@ text-align: left;
     border-radius: 8px;
 }
 .nav-button:hover{
-    color: #C6E4D6;
-   background-color: #006A50;
+    color: #F7EBCF;
+   background-color: #09A15C;
 }
 
 /*hero section*/
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    border-radius: 24px;
+    background: rgba(198,228,214,1.000);
+    margin: 80px 0px;
+    padding: 80px 100px 80px 100px;
+}
+.banner-sub-heading{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+.banner-heading{
+color: rgb(14, 14, 14);
+font-size: 56px;
+line-height: 67px;
+text-align: left;
+margin: 16px 0px;
+}
+.banner-btn{
+    background-color: #006A50;
+    padding: 17px 34px 17px 34px;
+    color: #F7EBCF;
+}
