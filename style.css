@@ -396,3 +396,23 @@ margin: 16px 0px;
     letter-spacing: 0%;
     margin: 24px 0px;
   }
+
+  /*footer*/
+  footer{
+    width: 100%;
+    background: rgb(255, 255, 255);
+    height: 226px;
+  } 
+.footer-container{
+    width: 1280px;
+    padding: 50px 160px 50px 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  
+  }
+  .imagebox img{
+    padding: 0 10px;
+  }
