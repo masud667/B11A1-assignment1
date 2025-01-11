@@ -3,14 +3,14 @@
 *{
     margin: 0;
     padding: 0;
+ 
+}
+body{
+    width: 1600px;
     background: rgb(245, 245, 245);
     font-family: "Fira Sans", serif;
     font-weight: 700;
     font-style: normal;
-    
-}
-body{
-    width: 1600px;
 }
 main{
     width: 1280px;
@@ -105,9 +105,59 @@ font-size: 56px;
 line-height: 67px;
 text-align: left;
 margin: 16px 0px;
+
 }
 .banner-btn{
     background-color: #006A50;
     padding: 17px 34px 17px 34px;
     color: #F7EBCF;
+    border: none;
+}
+
+/*pillars section*/
+
+.pillars{
+    width: auto;
+    height: 324px;
+    margin: 80px 0;
+}
+.phillars-title{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 32px 0px;
+}
+.pillar-cards{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+}
+.pillar-card{
+    width: 302px;
+    height: 244px;
+    padding: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.pcard-title{
+    margin: 12px 0px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.pcard-description{
+    margin: 12px 0px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
 }
