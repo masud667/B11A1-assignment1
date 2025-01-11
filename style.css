@@ -24,25 +24,29 @@ main{
     color:#006A50 ;
 }
 .color2{
-    color:#09A15C ;
+    background-color:#09A15C ;
 }
 .color3{
-    color: #C6E4D6;
+    background-color: #C6E4D6;
 }
 .color4{
-    color:#5490F5 ;
+    background-color:#5490F5 ;
 }
 .color5{
-    color:#F7EBCF ;
+    background-color:#F7EBCF ;
 }
-.color5{
-    color:#FA8F21; 
+.color6{
+    background-color:#FFC239; 
+}
+.color7{
+    background: rgba(84, 144, 245, 0.2);
 }
 .primary-button{
 font-size: 18px;
 font-weight: 600;
 text-align: left;
 border-radius: 8px;
+border: none;
 }
 .primary-button:hover{
    transition: all .5s ease;
@@ -160,4 +164,74 @@ margin: 16px 0px;
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
+}
+
+/*vision section*/
+
+.vision-title{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 24px 0px;
+}
+.vision-description{
+    margin: 12px 0px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.vision-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 32;
+    margin: 80px 0px;
+}
+.vision-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 410.67px;
+    height: 325px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding: 32px;
+}
+.vision-card img{
+    width: 49px;
+}
+.vision-card-title{
+    padding: 0px;
+    margin: 12px 0px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.vision-card-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 12px 0px;
+    padding: 0px;
+}
+
+.vision-cbtn{
+    padding: 11px 20px 11px 20px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align:left;
+    margin: 10px 0px;
 }
