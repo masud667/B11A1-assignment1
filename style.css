@@ -233,6 +233,28 @@ margin: 16px 0px;
     text-align:left;
     margin: 10px 0px;
 }
+
+/*Quote section*/
+.quote{
+    padding-bottom: 50px;
+}
+.quote-container h3{
+    color: rgba(14, 14, 14, 0.8);
+}
+.quote-container{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 48px 24px 48px 24px;
+    background: rgb(255, 255, 255);
+}
+.quoate-des{
+    margin-top: -50px;
+}
+
+
+
+
 /*opinion section*/
 .opinion{
     padding-bottom: 50px;
@@ -441,12 +463,10 @@ table{
 
   /*footer*/
   footer{
-    width: 100%;
-    background: rgb(255, 255, 255);
+    width: auto;
     height: 226px;
   } 
 .footer-container{
-    width: 1280px;
     padding: 50px 160px 50px 160px;
     display: flex;
     flex-direction: column;
