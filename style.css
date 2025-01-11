@@ -286,8 +286,9 @@ table{
     background: rgba(255, 255, 255, 0.1);
  }
 #opinion-select{
+    width: 152px;
     color: rgb(14, 14, 14);
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     line-height: 19px;
     text-align: left;
